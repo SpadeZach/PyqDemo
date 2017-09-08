@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  pyq-demo
+//
+//  Created by 赵博 on 2017/9/4.
+//  Copyright © 2017年 赵博. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIImageView+ImgageResource.h"
+#import "UIView+CustomSize.h"
+#import "Calculation.h"
+#import "GetPyqTime.h"
+#ifdef DEBUG
+
+
+#define CustomLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define CustomLog(...)
+#endif
+//OC下编译
+#ifdef __OBJC__
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
+#endif
+
+#endif /* PrefixHeader_pch */
