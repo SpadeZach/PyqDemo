@@ -7,7 +7,7 @@
 //
 
 #import "Calculation.h"
-
+#import <UIKit/UIKit.h>
 @implementation Calculation
 #pragma mark - 计算宽度
 +(CGFloat)widthOfSelfSuit:(NSString *)text font:(UIFont *)font height:(CGFloat)height{

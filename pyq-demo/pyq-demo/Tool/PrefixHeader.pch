@@ -12,6 +12,7 @@
 #import "UIView+CustomSize.h"
 #import "Calculation.h"
 #import "GetPyqTime.h"
+#import "SetHexColor.h"
 #ifdef DEBUG
 
 

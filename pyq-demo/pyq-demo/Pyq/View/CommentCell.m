@@ -7,7 +7,12 @@
 //
 
 #import "CommentCell.h"
-
+#import "GetPyqTime.h"
+#import "Calculation.h"
+#import "SetHexColor.h"
+#import "UIView+CustomSize.h"
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
 @interface CommentCell ()
 {
     
@@ -26,7 +31,7 @@
         cell=[[[NSBundle mainBundle]loadNibNamed:@"CommentCell" owner:nil options:nil]firstObject];
     }
     
-    cell.backgroundColor = [UIColor colorWithRed:239.0f/255.0f green:239.0f/255.0f blue:239.0f/255.0f alpha:1];
+    cell.backgroundColor = [SetHexColor colorWithHexString:@"#ECECEC"];
     return cell;
 }
 - (void)setPyqDic:(NSDictionary *)pyqDic{

@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2188BE11F60D6D20020D254 /* AllPicturesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2188BDF1F60D6D20020D254 /* AllPicturesCell.m */; };
-		F2188BE21F60D6D20020D254 /* AllPicturesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2188BE01F60D6D20020D254 /* AllPicturesCell.xib */; };
-		F22F0C071F6234AB0083D5D9 /* PyqPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22F0C061F6234AB0083D5D9 /* PyqPreviewController.m */; };
-		F22F0C0B1F62603F0083D5D9 /* PyqImageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F22F0C091F62603F0083D5D9 /* PyqImageTextCell.m */; };
-		F22F0C0C1F62603F0083D5D9 /* PyqImageTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F22F0C0A1F62603F0083D5D9 /* PyqImageTextCell.xib */; };
-		F240879E1F5E40FA00446299 /* Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = F240879D1F5E40FA00446299 /* Calculation.m */; };
-		F24087A21F5E725800446299 /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24087A01F5E725800446299 /* CommentCell.m */; };
-		F24087A31F5E725900446299 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F24087A11F5E725800446299 /* CommentCell.xib */; };
-		F26D65A31F5F943300AE746F /* GetPyqTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F26D65A21F5F943300AE746F /* GetPyqTime.m */; };
+		F29278F21F6A11FF00A04FD1 /* PyqController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29278CE1F6A11FF00A04FD1 /* PyqController.m */; };
+		F29278F31F6A11FF00A04FD1 /* PyqPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29278D01F6A11FF00A04FD1 /* PyqPreviewController.m */; };
+		F29278F41F6A11FF00A04FD1 /* TempViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29278D21F6A11FF00A04FD1 /* TempViewViewController.m */; };
+		F29278F51F6A11FF00A04FD1 /* TempViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F29278D31F6A11FF00A04FD1 /* TempViewViewController.xib */; };
+		F29278F61F6A11FF00A04FD1 /* PyqModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F29278D71F6A11FF00A04FD1 /* PyqModel.m */; };
+		F29278F71F6A11FF00A04FD1 /* AllPicturesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F29278DA1F6A11FF00A04FD1 /* AllPicturesCell.m */; };
+		F29278F81F6A11FF00A04FD1 /* AllPicturesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F29278DB1F6A11FF00A04FD1 /* AllPicturesCell.xib */; };
+		F29278F91F6A11FF00A04FD1 /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F29278DD1F6A11FF00A04FD1 /* CommentCell.m */; };
+		F29278FA1F6A11FF00A04FD1 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F29278DE1F6A11FF00A04FD1 /* CommentCell.xib */; };
+		F29278FB1F6A11FF00A04FD1 /* ExteriorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F29278E01F6A11FF00A04FD1 /* ExteriorCell.m */; };
+		F29278FC1F6A11FF00A04FD1 /* ExteriorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F29278E11F6A11FF00A04FD1 /* ExteriorCell.xib */; };
+		F29278FD1F6A11FF00A04FD1 /* PyqImageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F29278E31F6A11FF00A04FD1 /* PyqImageTextCell.m */; };
+		F29278FE1F6A11FF00A04FD1 /* PyqImageTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F29278E41F6A11FF00A04FD1 /* PyqImageTextCell.xib */; };
+		F29278FF1F6A11FF00A04FD1 /* Calculation.m in Sources */ = {isa = PBXBuildFile; fileRef = F29278E71F6A11FF00A04FD1 /* Calculation.m */; };
+		F29279001F6A11FF00A04FD1 /* GetPyqTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F29278E91F6A11FF00A04FD1 /* GetPyqTime.m */; };
+		F29279011F6A11FF00A04FD1 /* pyqData.json in Resources */ = {isa = PBXBuildFile; fileRef = F29278EB1F6A11FF00A04FD1 /* pyqData.json */; };
+		F29279021F6A11FF00A04FD1 /* SetHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F29278ED1F6A11FF00A04FD1 /* SetHexColor.m */; };
+		F29279031F6A11FF00A04FD1 /* UIImageView+ImgageResource.m in Sources */ = {isa = PBXBuildFile; fileRef = F29278EF1F6A11FF00A04FD1 /* UIImageView+ImgageResource.m */; };
+		F29279041F6A11FF00A04FD1 /* UIView+CustomSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F29278F11F6A11FF00A04FD1 /* UIView+CustomSize.m */; };
 		F2A2BB1D1F5CDEF400264F55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A2BB1C1F5CDEF400264F55 /* main.m */; };
 		F2A2BB201F5CDEF400264F55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A2BB1F1F5CDEF400264F55 /* AppDelegate.m */; };
 		F2A2BB261F5CDEF400264F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A2BB241F5CDEF400264F55 /* Main.storyboard */; };
@@ -23,15 +33,6 @@
 		F2A2BB2B1F5CDEF400264F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A2BB291F5CDEF400264F55 /* LaunchScreen.storyboard */; };
 		F2A2BB361F5CDEF500264F55 /* pyq_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A2BB351F5CDEF500264F55 /* pyq_demoTests.m */; };
 		F2A2BB411F5CDEF500264F55 /* pyq_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A2BB401F5CDEF500264F55 /* pyq_demoUITests.m */; };
-		F2A2BB6B1F5CE75700264F55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A2BB6A1F5CE75700264F55 /* ViewController.m */; };
-		F2A2BB761F5CE8DB00264F55 /* UIImageView+ImgageResource.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A2BB731F5CE8DB00264F55 /* UIImageView+ImgageResource.m */; };
-		F2A2BB771F5CE8DB00264F55 /* UIView+CustomSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A2BB751F5CE8DB00264F55 /* UIView+CustomSize.m */; };
-		F2A2BB7C1F5CEEE100264F55 /* pyqData.json in Resources */ = {isa = PBXBuildFile; fileRef = F2A2BB7B1F5CEEE100264F55 /* pyqData.json */; };
-		F2A2BB831F5CF65500264F55 /* ExteriorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A2BB811F5CF65500264F55 /* ExteriorCell.m */; };
-		F2A2BB841F5CF65500264F55 /* ExteriorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A2BB821F5CF65500264F55 /* ExteriorCell.xib */; };
-		F2A2BB871F5CF9A200264F55 /* PyqModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A2BB861F5CF9A200264F55 /* PyqModel.m */; };
-		F2A2BB8B1F5D030700264F55 /* TempViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A2BB891F5D030700264F55 /* TempViewViewController.m */; };
-		F2A2BB8C1F5D030700264F55 /* TempViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A2BB8A1F5D030700264F55 /* TempViewViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,26 +53,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F2188BDE1F60D6D20020D254 /* AllPicturesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllPicturesCell.h; sourceTree = "<group>"; };
-		F2188BDF1F60D6D20020D254 /* AllPicturesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllPicturesCell.m; sourceTree = "<group>"; };
-		F2188BE01F60D6D20020D254 /* AllPicturesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllPicturesCell.xib; sourceTree = "<group>"; };
-		F22F0C051F6234AB0083D5D9 /* PyqPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyqPreviewController.h; sourceTree = "<group>"; };
-		F22F0C061F6234AB0083D5D9 /* PyqPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyqPreviewController.m; sourceTree = "<group>"; };
-		F22F0C081F62603F0083D5D9 /* PyqImageTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyqImageTextCell.h; sourceTree = "<group>"; };
-		F22F0C091F62603F0083D5D9 /* PyqImageTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyqImageTextCell.m; sourceTree = "<group>"; };
-		F22F0C0A1F62603F0083D5D9 /* PyqImageTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PyqImageTextCell.xib; sourceTree = "<group>"; };
-		F240879C1F5E40FA00446299 /* Calculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculation.h; sourceTree = "<group>"; };
-		F240879D1F5E40FA00446299 /* Calculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculation.m; sourceTree = "<group>"; };
-		F240879F1F5E725800446299 /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
-		F24087A01F5E725800446299 /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
-		F24087A11F5E725800446299 /* CommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
-		F26D65A11F5F943300AE746F /* GetPyqTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPyqTime.h; sourceTree = "<group>"; };
-		F26D65A21F5F943300AE746F /* GetPyqTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPyqTime.m; sourceTree = "<group>"; };
+		F29278CD1F6A11FF00A04FD1 /* PyqController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyqController.h; sourceTree = "<group>"; };
+		F29278CE1F6A11FF00A04FD1 /* PyqController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyqController.m; sourceTree = "<group>"; };
+		F29278CF1F6A11FF00A04FD1 /* PyqPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyqPreviewController.h; sourceTree = "<group>"; };
+		F29278D01F6A11FF00A04FD1 /* PyqPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyqPreviewController.m; sourceTree = "<group>"; };
+		F29278D11F6A11FF00A04FD1 /* TempViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewViewController.h; sourceTree = "<group>"; };
+		F29278D21F6A11FF00A04FD1 /* TempViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewViewController.m; sourceTree = "<group>"; };
+		F29278D31F6A11FF00A04FD1 /* TempViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempViewViewController.xib; sourceTree = "<group>"; };
+		F29278D61F6A11FF00A04FD1 /* PyqModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyqModel.h; sourceTree = "<group>"; };
+		F29278D71F6A11FF00A04FD1 /* PyqModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyqModel.m; sourceTree = "<group>"; };
+		F29278D91F6A11FF00A04FD1 /* AllPicturesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllPicturesCell.h; sourceTree = "<group>"; };
+		F29278DA1F6A11FF00A04FD1 /* AllPicturesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllPicturesCell.m; sourceTree = "<group>"; };
+		F29278DB1F6A11FF00A04FD1 /* AllPicturesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllPicturesCell.xib; sourceTree = "<group>"; };
+		F29278DC1F6A11FF00A04FD1 /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
+		F29278DD1F6A11FF00A04FD1 /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
+		F29278DE1F6A11FF00A04FD1 /* CommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
+		F29278DF1F6A11FF00A04FD1 /* ExteriorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExteriorCell.h; sourceTree = "<group>"; };
+		F29278E01F6A11FF00A04FD1 /* ExteriorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExteriorCell.m; sourceTree = "<group>"; };
+		F29278E11F6A11FF00A04FD1 /* ExteriorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExteriorCell.xib; sourceTree = "<group>"; };
+		F29278E21F6A11FF00A04FD1 /* PyqImageTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyqImageTextCell.h; sourceTree = "<group>"; };
+		F29278E31F6A11FF00A04FD1 /* PyqImageTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyqImageTextCell.m; sourceTree = "<group>"; };
+		F29278E41F6A11FF00A04FD1 /* PyqImageTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PyqImageTextCell.xib; sourceTree = "<group>"; };
+		F29278E61F6A11FF00A04FD1 /* Calculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculation.h; sourceTree = "<group>"; };
+		F29278E71F6A11FF00A04FD1 /* Calculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculation.m; sourceTree = "<group>"; };
+		F29278E81F6A11FF00A04FD1 /* GetPyqTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPyqTime.h; sourceTree = "<group>"; };
+		F29278E91F6A11FF00A04FD1 /* GetPyqTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPyqTime.m; sourceTree = "<group>"; };
+		F29278EA1F6A11FF00A04FD1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F29278EB1F6A11FF00A04FD1 /* pyqData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pyqData.json; sourceTree = "<group>"; };
+		F29278EC1F6A11FF00A04FD1 /* SetHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetHexColor.h; sourceTree = "<group>"; };
+		F29278ED1F6A11FF00A04FD1 /* SetHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetHexColor.m; sourceTree = "<group>"; };
+		F29278EE1F6A11FF00A04FD1 /* UIImageView+ImgageResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImgageResource.h"; sourceTree = "<group>"; };
+		F29278EF1F6A11FF00A04FD1 /* UIImageView+ImgageResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImgageResource.m"; sourceTree = "<group>"; };
+		F29278F01F6A11FF00A04FD1 /* UIView+CustomSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomSize.h"; sourceTree = "<group>"; };
+		F29278F11F6A11FF00A04FD1 /* UIView+CustomSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomSize.m"; sourceTree = "<group>"; };
 		F2A2BB181F5CDEF400264F55 /* pyq-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pyq-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A2BB1C1F5CDEF400264F55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2A2BB1E1F5CDEF400264F55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2A2BB1F1F5CDEF400264F55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2A2BB211F5CDEF400264F55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
 		F2A2BB251F5CDEF400264F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2A2BB271F5CDEF400264F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2A2BB2A1F5CDEF400264F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,21 +100,6 @@
 		F2A2BB3C1F5CDEF500264F55 /* pyq-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pyq-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A2BB401F5CDEF500264F55 /* pyq_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pyq_demoUITests.m; sourceTree = "<group>"; };
 		F2A2BB421F5CDEF500264F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2A2BB6A1F5CE75700264F55 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
-		F2A2BB721F5CE8DB00264F55 /* UIImageView+ImgageResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImgageResource.h"; sourceTree = "<group>"; };
-		F2A2BB731F5CE8DB00264F55 /* UIImageView+ImgageResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImgageResource.m"; sourceTree = "<group>"; };
-		F2A2BB741F5CE8DB00264F55 /* UIView+CustomSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomSize.h"; sourceTree = "<group>"; };
-		F2A2BB751F5CE8DB00264F55 /* UIView+CustomSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomSize.m"; sourceTree = "<group>"; };
-		F2A2BB781F5CE8E300264F55 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		F2A2BB7B1F5CEEE100264F55 /* pyqData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pyqData.json; sourceTree = "<group>"; };
-		F2A2BB801F5CF65500264F55 /* ExteriorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExteriorCell.h; sourceTree = "<group>"; };
-		F2A2BB811F5CF65500264F55 /* ExteriorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExteriorCell.m; sourceTree = "<group>"; };
-		F2A2BB821F5CF65500264F55 /* ExteriorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExteriorCell.xib; sourceTree = "<group>"; };
-		F2A2BB851F5CF9A200264F55 /* PyqModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyqModel.h; sourceTree = "<group>"; };
-		F2A2BB861F5CF9A200264F55 /* PyqModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyqModel.m; sourceTree = "<group>"; };
-		F2A2BB881F5D030700264F55 /* TempViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewViewController.h; sourceTree = "<group>"; };
-		F2A2BB891F5D030700264F55 /* TempViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewViewController.m; sourceTree = "<group>"; };
-		F2A2BB8A1F5D030700264F55 /* TempViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempViewViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F29278CB1F6A11FF00A04FD1 /* Pyq */ = {
+			isa = PBXGroup;
+			children = (
+				F29278CC1F6A11FF00A04FD1 /* Controller */,
+				F29278D51F6A11FF00A04FD1 /* Model */,
+				F29278D81F6A11FF00A04FD1 /* View */,
+			);
+			path = Pyq;
+			sourceTree = "<group>";
+		};
+		F29278CC1F6A11FF00A04FD1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F29278CD1F6A11FF00A04FD1 /* PyqController.h */,
+				F29278CE1F6A11FF00A04FD1 /* PyqController.m */,
+				F29278CF1F6A11FF00A04FD1 /* PyqPreviewController.h */,
+				F29278D01F6A11FF00A04FD1 /* PyqPreviewController.m */,
+				F29278D11F6A11FF00A04FD1 /* TempViewViewController.h */,
+				F29278D21F6A11FF00A04FD1 /* TempViewViewController.m */,
+				F29278D31F6A11FF00A04FD1 /* TempViewViewController.xib */,
+				F29278D41F6A11FF00A04FD1 /* tupian */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F29278D41F6A11FF00A04FD1 /* tupian */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tupian;
+			sourceTree = "<group>";
+		};
+		F29278D51F6A11FF00A04FD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F29278D61F6A11FF00A04FD1 /* PyqModel.h */,
+				F29278D71F6A11FF00A04FD1 /* PyqModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F29278D81F6A11FF00A04FD1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F29278D91F6A11FF00A04FD1 /* AllPicturesCell.h */,
+				F29278DA1F6A11FF00A04FD1 /* AllPicturesCell.m */,
+				F29278DB1F6A11FF00A04FD1 /* AllPicturesCell.xib */,
+				F29278DC1F6A11FF00A04FD1 /* CommentCell.h */,
+				F29278DD1F6A11FF00A04FD1 /* CommentCell.m */,
+				F29278DE1F6A11FF00A04FD1 /* CommentCell.xib */,
+				F29278DF1F6A11FF00A04FD1 /* ExteriorCell.h */,
+				F29278E01F6A11FF00A04FD1 /* ExteriorCell.m */,
+				F29278E11F6A11FF00A04FD1 /* ExteriorCell.xib */,
+				F29278E21F6A11FF00A04FD1 /* PyqImageTextCell.h */,
+				F29278E31F6A11FF00A04FD1 /* PyqImageTextCell.m */,
+				F29278E41F6A11FF00A04FD1 /* PyqImageTextCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F29278E51F6A11FF00A04FD1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F29278E61F6A11FF00A04FD1 /* Calculation.h */,
+				F29278E71F6A11FF00A04FD1 /* Calculation.m */,
+				F29278E81F6A11FF00A04FD1 /* GetPyqTime.h */,
+				F29278E91F6A11FF00A04FD1 /* GetPyqTime.m */,
+				F29278EA1F6A11FF00A04FD1 /* PrefixHeader.pch */,
+				F29278EB1F6A11FF00A04FD1 /* pyqData.json */,
+				F29278EC1F6A11FF00A04FD1 /* SetHexColor.h */,
+				F29278ED1F6A11FF00A04FD1 /* SetHexColor.m */,
+				F29278EE1F6A11FF00A04FD1 /* UIImageView+ImgageResource.h */,
+				F29278EF1F6A11FF00A04FD1 /* UIImageView+ImgageResource.m */,
+				F29278F01F6A11FF00A04FD1 /* UIView+CustomSize.h */,
+				F29278F11F6A11FF00A04FD1 /* UIView+CustomSize.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		F2A2BB0F1F5CDEF400264F55 = {
 			isa = PBXGroup;
 			children = (
@@ -149,10 +231,9 @@
 			children = (
 				F2A2BB1E1F5CDEF400264F55 /* AppDelegate.h */,
 				F2A2BB1F1F5CDEF400264F55 /* AppDelegate.m */,
-				F2A2BB781F5CE8E300264F55 /* PrefixHeader.pch */,
-				F2A2BB711F5CE8DB00264F55 /* Tool */,
-				F2A2BB5D1F5CE64D00264F55 /* Pyq */,
 				F2A2BB241F5CDEF400264F55 /* Main.storyboard */,
+				F29278CB1F6A11FF00A04FD1 /* Pyq */,
+				F29278E51F6A11FF00A04FD1 /* Tool */,
 				F2A2BB271F5CDEF400264F55 /* Assets.xcassets */,
 				F2A2BB291F5CDEF400264F55 /* LaunchScreen.storyboard */,
 				F2A2BB2C1F5CDEF400264F55 /* Info.plist */,
@@ -185,74 +266,6 @@
 				F2A2BB421F5CDEF500264F55 /* Info.plist */,
 			);
 			path = "pyq-demoUITests";
-			sourceTree = "<group>";
-		};
-		F2A2BB5D1F5CE64D00264F55 /* Pyq */ = {
-			isa = PBXGroup;
-			children = (
-				F2A2BB5E1F5CE64D00264F55 /* Controller */,
-				F2A2BB5F1F5CE64D00264F55 /* Model */,
-				F2A2BB601F5CE64D00264F55 /* View */,
-			);
-			path = Pyq;
-			sourceTree = "<group>";
-		};
-		F2A2BB5E1F5CE64D00264F55 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				F2A2BB211F5CDEF400264F55 /* ViewController.h */,
-				F2A2BB6A1F5CE75700264F55 /* ViewController.m */,
-				F2A2BB881F5D030700264F55 /* TempViewViewController.h */,
-				F2A2BB891F5D030700264F55 /* TempViewViewController.m */,
-				F2A2BB8A1F5D030700264F55 /* TempViewViewController.xib */,
-				F22F0C051F6234AB0083D5D9 /* PyqPreviewController.h */,
-				F22F0C061F6234AB0083D5D9 /* PyqPreviewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		F2A2BB5F1F5CE64D00264F55 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				F2A2BB851F5CF9A200264F55 /* PyqModel.h */,
-				F2A2BB861F5CF9A200264F55 /* PyqModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		F2A2BB601F5CE64D00264F55 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F2A2BB801F5CF65500264F55 /* ExteriorCell.h */,
-				F2A2BB811F5CF65500264F55 /* ExteriorCell.m */,
-				F2A2BB821F5CF65500264F55 /* ExteriorCell.xib */,
-				F240879F1F5E725800446299 /* CommentCell.h */,
-				F24087A01F5E725800446299 /* CommentCell.m */,
-				F24087A11F5E725800446299 /* CommentCell.xib */,
-				F2188BDE1F60D6D20020D254 /* AllPicturesCell.h */,
-				F2188BDF1F60D6D20020D254 /* AllPicturesCell.m */,
-				F2188BE01F60D6D20020D254 /* AllPicturesCell.xib */,
-				F22F0C081F62603F0083D5D9 /* PyqImageTextCell.h */,
-				F22F0C091F62603F0083D5D9 /* PyqImageTextCell.m */,
-				F22F0C0A1F62603F0083D5D9 /* PyqImageTextCell.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F2A2BB711F5CE8DB00264F55 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				F2A2BB7B1F5CEEE100264F55 /* pyqData.json */,
-				F2A2BB721F5CE8DB00264F55 /* UIImageView+ImgageResource.h */,
-				F2A2BB731F5CE8DB00264F55 /* UIImageView+ImgageResource.m */,
-				F2A2BB741F5CE8DB00264F55 /* UIView+CustomSize.h */,
-				F2A2BB751F5CE8DB00264F55 /* UIView+CustomSize.m */,
-				F240879C1F5E40FA00446299 /* Calculation.h */,
-				F240879D1F5E40FA00446299 /* Calculation.m */,
-				F26D65A11F5F943300AE746F /* GetPyqTime.h */,
-				F26D65A21F5F943300AE746F /* GetPyqTime.m */,
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,15 +374,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F22F0C0C1F62603F0083D5D9 /* PyqImageTextCell.xib in Resources */,
+				F29278FC1F6A11FF00A04FD1 /* ExteriorCell.xib in Resources */,
 				F2A2BB2B1F5CDEF400264F55 /* LaunchScreen.storyboard in Resources */,
-				F2A2BB8C1F5D030700264F55 /* TempViewViewController.xib in Resources */,
-				F2A2BB7C1F5CEEE100264F55 /* pyqData.json in Resources */,
-				F24087A31F5E725900446299 /* CommentCell.xib in Resources */,
 				F2A2BB281F5CDEF400264F55 /* Assets.xcassets in Resources */,
-				F2188BE21F60D6D20020D254 /* AllPicturesCell.xib in Resources */,
+				F29278F81F6A11FF00A04FD1 /* AllPicturesCell.xib in Resources */,
+				F29278FA1F6A11FF00A04FD1 /* CommentCell.xib in Resources */,
 				F2A2BB261F5CDEF400264F55 /* Main.storyboard in Resources */,
-				F2A2BB841F5CF65500264F55 /* ExteriorCell.xib in Resources */,
+				F29278F51F6A11FF00A04FD1 /* TempViewViewController.xib in Resources */,
+				F29279011F6A11FF00A04FD1 /* pyqData.json in Resources */,
+				F29278FE1F6A11FF00A04FD1 /* PyqImageTextCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,20 +407,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2188BE11F60D6D20020D254 /* AllPicturesCell.m in Sources */,
-				F2A2BB871F5CF9A200264F55 /* PyqModel.m in Sources */,
-				F2A2BB8B1F5D030700264F55 /* TempViewViewController.m in Sources */,
-				F2A2BB761F5CE8DB00264F55 /* UIImageView+ImgageResource.m in Sources */,
-				F26D65A31F5F943300AE746F /* GetPyqTime.m in Sources */,
-				F24087A21F5E725800446299 /* CommentCell.m in Sources */,
+				F29278F61F6A11FF00A04FD1 /* PyqModel.m in Sources */,
 				F2A2BB201F5CDEF400264F55 /* AppDelegate.m in Sources */,
-				F240879E1F5E40FA00446299 /* Calculation.m in Sources */,
-				F2A2BB831F5CF65500264F55 /* ExteriorCell.m in Sources */,
-				F2A2BB771F5CE8DB00264F55 /* UIView+CustomSize.m in Sources */,
+				F29279041F6A11FF00A04FD1 /* UIView+CustomSize.m in Sources */,
+				F29278F41F6A11FF00A04FD1 /* TempViewViewController.m in Sources */,
+				F29278F91F6A11FF00A04FD1 /* CommentCell.m in Sources */,
+				F29279001F6A11FF00A04FD1 /* GetPyqTime.m in Sources */,
+				F29278F71F6A11FF00A04FD1 /* AllPicturesCell.m in Sources */,
+				F29278F31F6A11FF00A04FD1 /* PyqPreviewController.m in Sources */,
+				F29279021F6A11FF00A04FD1 /* SetHexColor.m in Sources */,
 				F2A2BB1D1F5CDEF400264F55 /* main.m in Sources */,
-				F22F0C071F6234AB0083D5D9 /* PyqPreviewController.m in Sources */,
-				F2A2BB6B1F5CE75700264F55 /* ViewController.m in Sources */,
-				F22F0C0B1F62603F0083D5D9 /* PyqImageTextCell.m in Sources */,
+				F29278FB1F6A11FF00A04FD1 /* ExteriorCell.m in Sources */,
+				F29279031F6A11FF00A04FD1 /* UIImageView+ImgageResource.m in Sources */,
+				F29278FF1F6A11FF00A04FD1 /* Calculation.m in Sources */,
+				F29278F21F6A11FF00A04FD1 /* PyqController.m in Sources */,
+				F29278FD1F6A11FF00A04FD1 /* PyqImageTextCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,7 +571,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "${SRCROOT}/pyq-demo/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "${SRCROOT}/pyq-demo/Tool/PrefixHeader.pch";
 				INFOPLIST_FILE = "pyq-demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -571,7 +585,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "${SRCROOT}/pyq-demo/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "${SRCROOT}/pyq-demo/Tool/PrefixHeader.pch";
 				INFOPLIST_FILE = "pyq-demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

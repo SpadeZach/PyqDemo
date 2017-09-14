@@ -12,6 +12,10 @@
 
 - (void)ExteriorCellReloadView;
 - (void)commentCellReloadView;
+//评论
+- (void)commentCellComment:(NSMutableArray *)commentList toCritic:(NSString *)critic;
+- (void)headImgClick;
+- (void)adjustView:(NSInteger)height;
 @end
 @class  PyqModel;
 @interface ExteriorCell : UITableViewCell
@@ -20,5 +24,6 @@
 
 +(instancetype)cellWithTableView:(UITableView *)tableView;
 @property (nonatomic, strong)PyqModel *pyqModel;
+
 
 @end

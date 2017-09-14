@@ -10,7 +10,12 @@
 #import "PyqModel.h"
 #import "GetPyqTime.h"
 #import "CommentCell.h"
-
+#import "GetPyqTime.h"
+#import "Calculation.h"
+#import "SetHexColor.h"
+#import "UIView+CustomSize.h"
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
 #define ImgW (kWidth - 105) / 3
 @interface AllPicturesCell ()<UICollectionViewDataSource,UICollectionViewDelegate,UITableViewDelegate,UITableViewDataSource>
 {
@@ -32,6 +37,16 @@
     __weak IBOutlet UITableView *commentTable;
     //计算table高
     CGFloat countTableH;
+    //赞底图
+     __weak IBOutlet UIView *praseView;
+    //赞按钮的高度-隐藏时为0不隐藏20
+    __weak IBOutlet NSLayoutConstraint *praseH;
+    //赞按钮的距下的距离（10/没赞0）
+    __weak IBOutlet NSLayoutConstraint *parseBotoomH;
+    
+    //赞底图高度（没赞10/赞0）
+    __weak IBOutlet NSLayoutConstraint *parseViewBottom;
+
 
 }
 @property (nonatomic, strong) NSMutableDictionary *heightAtIndexPath;//缓存高度
@@ -71,6 +86,20 @@ NSString *const pyqIdentifiy = @"PyqImgCellIndentify";
     
     
     
+    
+    /******************  赞  ******************/
+    if (_pyqModel.praiseList.count == 0) {
+        praseView.hidden = YES;
+        parseBotoomH.constant = 0;
+        praseH.constant = 0;
+        parseViewBottom.constant = 10;
+    }else{
+        praseView.hidden = NO;
+        praseH.constant = 20;
+        parseBotoomH.constant = 10;
+        parseViewBottom.constant = 0;
+        
+    }
     /******************  评论  ******************/
     countTableH = 0;
     if (_pyqModel.comment.count == 0) {
@@ -99,7 +128,16 @@ NSString *const pyqIdentifiy = @"PyqImgCellIndentify";
     commentTable.separatorStyle = UITableViewCellSeparatorStyleNone;
     commentTable.scrollEnabled = NO;
     commentTable.showsHorizontalScrollIndicator = NO;
+    commentTable.rowHeight = UITableViewAutomaticDimension;
+}
+#pragma mark - 评论点击
+- (IBAction)commentClick:(id)sender {
+    CGFloat cellY = [[sender superview] superview].custom_y;
+    //35 是TextField所在高
+    CGFloat cellH = [[sender superview] superview].custom_height;
+    [self.delegate adjustView:cellY + cellH - 35];
 
+    [self.delegate commentCellComment:_pyqModel.comment toCritic:@""];
 }
 #pragma mark - collectionDelegate
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
@@ -144,13 +182,17 @@ NSString *const pyqIdentifiy = @"PyqImgCellIndentify";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSDictionary *dic =  _pyqModel.comment[indexPath.row];
-    NSLog(@"%@",dic[@"from"]);
-    [_pyqModel.comment removeObjectAtIndex:indexPath.row];
-    
-    // 2.更新UITableView UI界面
-    // [tableView reloadData];
-    [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
-    [self.delegate commentCellReloadView];
+    CGFloat cellY = [[tableView superview] superview].custom_y;
+    //35 是TextField所在高
+    CGFloat cellH = [[tableView superview] superview].custom_height;
+    [self.delegate adjustView:cellY + cellH - 35];
+
+    /******************  评论  ******************/
+    [self.delegate commentCellComment:_pyqModel.comment toCritic:dic[@"from"]];
+    /******************  删除  ******************/
+//    [_pyqModel.comment removeObjectAtIndex:indexPath.row];
+//    [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+//    [self.delegate commentCellReloadView];
 }
 
 

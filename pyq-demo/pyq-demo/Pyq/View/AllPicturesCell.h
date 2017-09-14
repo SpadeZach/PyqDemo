@@ -11,8 +11,13 @@
 
 - (void)ExteriorCellReloadView;
 - (void)commentCellReloadView;
+//图片预览
 - (void)presentPreview:(NSArray *)imgArr curret:(NSInteger)indexRow;
 
+//评论
+- (void)commentCellComment:(NSMutableArray *)commentList toCritic:(NSString *)critic;
+//调整键盘高度
+- (void)adjustView:(NSInteger)height;
 @end
 @class PyqModel;
 @interface AllPicturesCell : UITableViewCell
